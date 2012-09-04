@@ -23,7 +23,7 @@ for (m in c(10, 100, 1000, 10000)){
 		random_numbers[i] <- mean(random_walk)
 
         # Uncomment only if you can see the trajectories
-		if(i == 1 && m == 10) plot(random_walk, type="l", ylim=c(0, 200), xlab="t", ylab="S(t)")
+		if(i == 1 && m == 100) plot(random_walk, type="l", ylim=c(0, 200), xlab="t", ylab="S(t)")
 		else if (m == 100) lines(random_walk)
 		
 	}
